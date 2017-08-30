@@ -42,10 +42,59 @@ public class DemoWeek3 {
 	/**
 	 * เขียนโปรมแกรมเพื่อรับค่าพิกัดของจุด A(x1,y1) , B(x2,y2) , C(x3,y3)
 	 * แล้วคำนวณหาความยาวของเส้นรอบรูปของสามเหลี่ยม ABC และแสดงผลโดยใช้ทศนิยมสองตำแหน่ง
+	 * 
+	 * แบบง่าย
+	 * 
 	 * @throws Exception 
 	 * @throws NumberFormatException 
 	 */
-	public static void Assigment2() throws Exception{
+	public static void Assigment2() {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//Point 1
+		System.out.print("Input x1 : ");
+		String x1 = scanner.nextLine();
+		System.out.println("");
+		
+		System.out.print("Input y1 : ");
+		String y1 = scanner.nextLine();
+		System.out.println("");
+		
+		//Point 2
+		System.out.print("Input x2 : ");
+		String x2 = scanner.nextLine();
+		System.out.println("");
+		
+		System.out.print("Input y2 : ");
+		String y2 = scanner.nextLine();
+		System.out.println("");
+		
+		//Point 2
+		System.out.print("Input x3 : ");
+		String x3 = scanner.nextLine();
+		System.out.println("");
+				
+		System.out.print("Input y3 : ");
+		String y3 = scanner.nextLine();
+		System.out.println("");
+		
+		double result1 = Math.sqrt( (Math.pow( Integer.parseInt(x2)-Integer.parseInt(x1) , 2)) + (Math.pow( Integer.parseInt(y2)-Integer.parseInt(y1) , 2)) );
+		double result2 = 0;
+		double result3 = 0;
+		
+	}
+	
+	/**
+	 * เขียนโปรมแกรมเพื่อรับค่าพิกัดของจุด A(x1,y1) , B(x2,y2) , C(x3,y3)
+	 * แล้วคำนวณหาความยาวของเส้นรอบรูปของสามเหลี่ยม ABC และแสดงผลโดยใช้ทศนิยมสองตำแหน่ง
+	 * 
+	 * แบบยากขึ้นมานิดนึง
+	 * 
+	 * @throws Exception 
+	 * @throws NumberFormatException 
+	 */
+	public static void Assigment2HaveValidate() throws Exception{
 		
 		Scanner scanner = new Scanner(System.in);
 		
