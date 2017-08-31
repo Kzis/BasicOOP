@@ -77,10 +77,10 @@ public class TriangleCalculator {
 		//Result1 : Point1 --> Point2
 		double result1 = DemoUtils.calDistanceBetweenTwoPoint(x2, y2, x1, y1);
 		
-		//Result1 : Point1 --> Point2
+		//Result2 : Point2 --> Point3
 		double result2 = DemoUtils.calDistanceBetweenTwoPoint(x3, y3, x2, y2);
 				
-		//Result1 : Point1 --> Point2
+		//Result3 : Point3 --> Point1
 		double result3 = DemoUtils.calDistanceBetweenTwoPoint(x1, y1, x3, y3);
 		
 		this.perimeter = (result1+result2+result3);
