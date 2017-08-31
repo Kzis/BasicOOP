@@ -7,7 +7,7 @@ import Utils.InputUtil;
 
 public class DemoWeek3 {
 	
-	/**asdasdasdas
+	/**
 	 * Hint 1 	: ใช้สูตรคำนวฯหาระยะห่างของจุดทั้งสอง
 	 * 			: d = sqrt( (x2-x1)^2 + (y2-y1)^2 )
 	 * 
