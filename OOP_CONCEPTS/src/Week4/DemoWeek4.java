@@ -19,12 +19,22 @@ public class DemoWeek4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		//รับค่า Min value
 		String minValue = InputUtil.getValue(sc, "min value");
-		String maxValue = InputUtil.getValue(sc, "min value");
+		
+		//รับค่า Max value
+		String maxValue = InputUtil.getValue(sc, "max value");
+		
+		//Commrnt ไว้ ความหายคือเหมือน 2 บรรทัดข้างบน
+//		String minValue = sc.nextLine();
+//		String maxValue = sc.nextLine();
 		
 		//New Object  แบบที่ 1
 		MultiSidedDice multiSidedDice = new MultiSidedDice(Integer.parseInt(minValue), Integer.parseInt(maxValue));
-		System.out.println("Output : " + multiSidedDice.getRollValue());
+		
+		for(int i=0;i<10;i++){
+			System.out.println("Output " +(i+1)+ ": " + multiSidedDice.getRollValue());
+		}
 		
 		System.out.println("");
 		System.out.println("### End Program Multi-Sided Dice Program : 1");
@@ -34,15 +44,15 @@ public class DemoWeek4 {
 		System.out.println("");
 		
 		//New Object แบบที่ 2 
-		MultiSidedDice multiSidedDice2 = new MultiSidedDice();
-		multiSidedDice2.setMinValue(Integer.parseInt(minValue));
-		multiSidedDice2.setMaxValue(Integer.parseInt(maxValue));
-		
-		System.out.println("Output : " + multiSidedDice.getRollValue());
-		
-		System.out.println("");
-		System.out.println("### End Program Multi-Sided Dice Program : 2");
-		
+//		MultiSidedDice multiSidedDice2 = new MultiSidedDice();
+//		multiSidedDice2.setMinValue(Integer.parseInt(minValue));
+//		multiSidedDice2.setMaxValue(Integer.parseInt(maxValue));
+//		
+//		System.out.println("Output : " + multiSidedDice.getRollValue());
+//		
+//		System.out.println("");
+//		System.out.println("### End Program Multi-Sided Dice Program : 2");
+//		
 		
 	}
 	
