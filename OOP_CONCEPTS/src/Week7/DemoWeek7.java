@@ -36,7 +36,7 @@ public class DemoWeek7 {
 			if( i != 6){
 				System.out.println(result);
 			}else{
-				if( !(result.substring(0, 2).equals("You")) ){
+				if( !(result.substring(0,2).equals("You")) ){
 					System.out.println("Game over (answer =" + number +")");
 				}
 				
@@ -50,6 +50,7 @@ public class DemoWeek7 {
 				}
 			}
 			
+			sc.close();
 			i++;
 			
 		}
