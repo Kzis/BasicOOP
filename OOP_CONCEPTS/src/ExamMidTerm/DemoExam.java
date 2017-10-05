@@ -64,9 +64,16 @@ public class DemoExam {
 			this.commission = 0.0;
 		}
 		
-		return commission;
+		return this.commission;
 	}
-
+	
+	/**
+	 * ใช้สำหรับ Get เงินทั้งหมด 
+	 * 
+	 * @param workDay
+	 * @param salary
+	 * @return
+	 */
 	public double getNetAmount(int workDay , double salary) {
 		return getBalance(workDay) + getCommision(salary);
 	}
