@@ -6,6 +6,9 @@ public class Account {
 	private String ownerName;
 	private double balance;
 	
+	public final static String TAX = "0.07";
+	public static final String TTT = "0.07";
+	
 	//Constructor
 	public Account() {
 		this.ownerName = "Unassign";
